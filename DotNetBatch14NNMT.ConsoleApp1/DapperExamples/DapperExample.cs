@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Dapper;
+using DotNetBatch14NNMT.ConsoleApp1.Model;
 
 namespace DotNetBatch14NNMT.ConsoleApp1.DapperExamples
 {

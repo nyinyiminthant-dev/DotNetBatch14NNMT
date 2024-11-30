@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DotNetBatch14NNMT.ConsoleApp1.AdoDotNetExamples;
 using DotNetBatch14NNMT.ConsoleApp1.DapperExamples;
+using DotNetBatch14NNMT.ConsoleApp1.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -16,9 +17,13 @@ AdoDotNetExample ado = new AdoDotNetExample();
 
 //ado.Delete(5);
 
-DapperExample dp = new DapperExample();
+//DapperExample dp = new DapperExample();
 
-dp.Run();
+//dp.Run();
 
+
+EFCoreExample ef = new EFCoreExample();
+
+ef.Run();
 
 Console.ReadKey();

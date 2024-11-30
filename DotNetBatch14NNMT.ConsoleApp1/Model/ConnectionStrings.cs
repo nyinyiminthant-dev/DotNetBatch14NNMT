@@ -5,17 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotNetBatch14NNMT.ConsoleApp1.DapperExamples
+namespace DotNetBatch14NNMT.ConsoleApp1.Model
 {
     internal static class ConnectionStrings
     {
-      public static  SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        public static SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
 
             DataSource = ".",
             InitialCatalog = "relesson",
             UserID = "sa",
-            Password = "sasa@123"
+            Password = "sasa@123",
+            TrustServerCertificate = true
         };
     }
 }
