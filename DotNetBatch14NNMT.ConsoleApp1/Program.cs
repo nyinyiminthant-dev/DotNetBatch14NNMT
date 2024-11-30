@@ -9,7 +9,7 @@ AdoDotNetExample ado = new AdoDotNetExample();
 
 //ado.Edit(2); 
 
-//ado.Create("Nyi Nyi","n@gmail.com",1234);
+//ado.Create("Nyi Nyi","n@gmail.com",1234); 
 
 //ado.Update(2, "Thant", "t@gmail.com", 123);
 
