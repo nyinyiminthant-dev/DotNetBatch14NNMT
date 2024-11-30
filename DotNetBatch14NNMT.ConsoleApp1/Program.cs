@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DotNetBatch14NNMT.ConsoleApp1.AdoDotNetExamples;
+using DotNetBatch14NNMT.ConsoleApp1.DapperExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -13,6 +14,11 @@ AdoDotNetExample ado = new AdoDotNetExample();
 
 //ado.Update(2, "Thant", "t@gmail.com", 123);
 
-ado.Delete(5);
+//ado.Delete(5);
+
+DapperExample dp = new DapperExample();
+
+dp.Run();
+
 
 Console.ReadKey();
